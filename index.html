@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormDesign</title>
+</head>
+<body>
+    <form action="/contact-me">
+
+        <label for="email">Username </label>
+        <input type="text" id="email" placeholder="email" required="true"><br>
+
+        <label for="user_password">Password </label>
+        <input type="password" id="user_password"><br><br>
+
+        Date of Birth <input type="date"><br><br>
+        File <input type="file"><br><br>
+        color <input type="color"><br><br>
+        Range <input type="range"><br><br>
+
+        <!--Radio button formate-->
+        <label>Gender :</label><br>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="gender" value="other"><br><br>
+
+        <!--Checkbox button formate-->
+        <label>Technology :</label><br>
+        <label for="JAVA">JAVA</label>
+        <input type="checkbox" id="java" name="Technology" value="java">
+
+        <label for="PYTHON">PYTHON</label>
+        <input type="checkbox" id="python" name="Technology" value="python">
+
+        <label for="HTML">HTML</label>
+        <input type="checkbox" id="html" name="Technology" value="html">
+
+        <label for="CSS">CSS</label>
+        <input type="checkbox" id="css" name="Technology" value="css"><br><br>
+
+        <!--select tag-->
+        <label>Select your Country :</label>
+            <select name="country" id="country">
+                <option value="India">India</option>
+                <option value="UK">UK</option>
+                <option value="US">US</option>
+                <option value="South Africa">South Africa</option>
+                <option value="Other">Other</option>
+            </select><br><br>
+
+        <!--Text Area-->
+        <textarea cols="40" rows="3">give your description
+        </textarea><br><br>
+
+        <!--button & submit tag-->
+        <input type="button" value="Reset">
+        <input type="submit">
+    </form>
+</body>
+</html>
